@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#A6E6DD">
+
+<TextView
+android:id="@+id/motivationalPhrase"
+android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/motivational_phrase_text"
+    android:gravity="center"
+    android:padding="16dp"
+    android:textSize="18sp"
+    android:textColor="#000000" />
+
+<Button
+android:id="@+id/selectDateButton"
+android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/select_date_button"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp"
+    android:minHeight="48dp" />
+
+<Button
+android:id="@+id/okButton"
+android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/ok_button"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp"
+    android:minHeight="48dp" />
+    </LinearLayout>

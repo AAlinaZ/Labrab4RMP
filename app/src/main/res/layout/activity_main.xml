@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/pastel_blue">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:background="#FFFFFF"
+        android:hint="@string/enter_name_hint"
+        android:inputType="textPersonName"
+        android:maxWidth="400dp"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/goToSecondActivity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minWidth="120dp"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:text="@string/get_motivational_phrase"
+        android:layout_gravity="center_horizontal"
+        android:background="#608be2" />
+
+    <TextView
+        android:id="@+id/dateInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/date_info_text"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advertisement_playmarket"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/playMarketButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/playmarket_button"
+        android:layout_gravity="center_horizontal"
+        android:background="#608be2"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

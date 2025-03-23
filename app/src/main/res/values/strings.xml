@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Intents App</string>
+    <string name="enter_name_hint">Введите ваше имя</string>
+    <string name="get_motivational_phrase">Получить мотивационную фразу</string>
+    <string name="date_info_text"> </string>
+    <string name="motivational_phrase_text">Мотивационная фраза</string>
+    <string name="select_date_button">Выберите дату срабатывания фразы</string>
+    <string name="ok_button">OK</string>
+    <string name="motivational_phrase_template">%s, ваша мотивационная фраза: %s</string>
+    <string name="date_template">Мотивационная фраза сработает %s</string>
+    <string name="advertisement_playmarket">Реклама PlayMarket</string>
+    <string name="playmarket_button">PlayMarket</string>
+</resources>
